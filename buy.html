@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+<head>
+
+    <title>Mc | Buy</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="buy.css">
+
+    <script src="buy.js"></script>
+</head>
+
+<body>
+<div id="interface">
+    <header id="heading">
+        <hgroup>
+            <h1>Mc</h1>
+            <h2>My Closet</h2>
+
+        </hgroup>
+        <nav id="menu">
+            <ul>
+                <h1>main menu</h1>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="woman.html">Women</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="buy.html">Buy Here</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h4>Home -> Buy</h4>
+    <section>
+
+
+
+        <form method="post" name="fbuy" oninput="calc_total()">
+            <fieldset>
+            <legend>Identification</legend>
+            <p><label for="iName">Name</label>&nbsp<input type="text" name="nName" id="iName" size="30" placeholder="type your name"></p>
+            <p><label for="iId">ID</label>&nbsp<input type="text" name="nId" id="iId" size="20" placeholder="type your ID or Passport"></p>
+            <p><label for="nPhone">Phone Number&nbsp</label><input type="text" name="nPhone" id="nPhone" size="20" placeholder="type yor phone number"></p>
+            <p><label for="iMail">Email</label>&nbsp<input type="email" name="nMail" id="iMail" size="50" placeholder="type your email"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Place to Delivery</legend>
+            <p>Address&nbsp<input type="text" name="nAdd" id="iAdd" size="40" placeholder="type your address"/></p>
+            <p>City&nbsp<input type="text" name="nCity" id="iCity" size="20" placeholder="type your city"/></p>
+            <p>Post Code&nbsp<input type="text" name="nPost" id="iPost" size="15" placeholder="type your post code"/></p>
+        </fieldset>
+
+
+        <fieldset><legend>Products</legend>
+            <p>Men</p>
+        <p><input type="checkbox" value="900" id="nM1" onchange="somar(this)">Men Trousers - $ 900</p>
+        <p><input type="checkbox" value="3500" id="nM2" onchange="somar(this)">Special Shirt - $3500</p>
+        <p><input type="checkbox" value="5500"  id="nM3" onchange="somar(this)">Brown Shoes - $5500</p>
+        <p><input type="checkbox" value="10000" id="nM4" onchange="somar(this)">Men Handbag - $10000</p>
+            <p>Women</p>
+        <p><input type="checkbox" value="1300" onchange="somar(this)"> Black Top - $1300</p>
+        <p><input type="checkbox" value="2000" onchange="somar(this)">Cream Cardigan - $2000</p>
+        <p><input type="checkbox" value="2100" onchange="somar(this)">Black Trousers - $2100</p>
+        <p><input type="checkbox" value="5000" onchange="somar(this)">Red Dress - $5000</p>
+            <p>Total Price&nbsp$&nbsp<input type="text" id="TP" readonly></p>
+        </fieldset>
+
+
+        <fieldset id="deposit"><legend>Payment</legend>
+            <h2>Deposit Account</h2>
+            <ul id="acc">
+                <li>Sophia Misterina</li>
+                <li>Bank: New England</li>
+                <li>Account Number: 7458398</li>
+                <li>Post Code: London</li>
+            </ul>
+            <p><label for="iRec">Deposit Receipt</label>&nbsp<input type="file" name="nRec" id="iRec"></p>
+           <input type="submit" id="send" value="Send">
+        </fieldset>
+        </form>
+
+    </section>
+
+    <footer>
+        <h3><a href="buy.html">Buy Here</a></h3>
+        <h2> All the information on this website are Fake. This site is scientific propose only</h2>
+        <h4>by Romulo Ferreira Dias</h4>
+
+    </footer>
+</div>
+</body>
+</html>
