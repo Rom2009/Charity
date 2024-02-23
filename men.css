@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+h4{
+    font-family: "Aguafina Script", cursive;
+}
+
+ul#men-clothes{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#men-clothes li{
+    float: left;
+    width: 250px;
+    height: 270px;
+    margin: 40px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+ul#men-clothes li span{
+    line-height: 600px;
+    margin: 20px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+ul#men-clothes li#one{
+    background: url("https://i.pinimg.com/564x/c6/10/1f/c6101fa621f11e3bee2e30827485d539.jpg") no-repeat;
+    background-size: 245px 265px;
+}
+ul#men-clothes li#two{
+    background: url("https://i.pinimg.com/564x/e7/9f/e9/e79fe9f7938b75f74ce12f11027ee3e1.jpg") no-repeat;
+    background-size: 245px 265px;
+}
+ul#men-clothes li#three{
+    background: url("https://i.pinimg.com/564x/fd/a2/b1/fda2b168e9e778c5eea0a76c49891c02.jpg") no-repeat;
+    background-size: 245px 270px;
+}
+ul#men-clothes li#four{
+    background: url("https://i.pinimg.com/564x/77/84/d5/7784d51eb6dd98f90320259a3fb5628e.jpg") no-repeat;
+    background-size: 245px 270px;
+}
+
