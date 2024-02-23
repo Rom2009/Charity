@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+h4{
+    font-family: "Aguafina Script", cursive;
+}
+ul#woman-clothes{
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#woman-clothes li{
+    float: left;
+    width: 250px;
+    height: 270px;
+    margin: 40px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+ul#woman-clothes li span{
+    line-height: 600px;
+    margin: 20px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+ul#woman-clothes li#one{
+    background: url("https://cdn-images.farfetch-contents.com/18/84/48/73/18844873_41009344_1000.jpg") no-repeat;
+    background-size: 245px 265px;
+}
+ul#woman-clothes li#two{
+    background: url("https://i.pinimg.com/736x/64/cd/c2/64cdc2efe1f514f37821f2aaa38cca88.jpg") no-repeat;
+    background-size: 245px 265px;
+}
+ul#woman-clothes li#three{
+    background: url("https://i.pinimg.com/564x/ea/34/b8/ea34b81c2e4ebac6d9aea1eadfcc4a6e.jpg")no-repeat;
+    background-size: 225px 270px;
+    background-position: 50% 50%;
+}
+ul#woman-clothes li#four{
+    background: url("https://i.pinimg.com/564x/fb/18/52/fb1852da2197ff031f24c5a2f378524a.jpg") no-repeat;
+    background-size: 220px 270px;
+    background-position: 50% 50%;
+}
