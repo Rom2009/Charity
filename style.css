@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fontm';
+}
+body{
+    font-family: Arial, sans-serif;
+
+h2 {
+    text-align: center;
+}
+h3{
+    font-family: "Aguafina Script", cursive;
+    margin-left: 0;
+    text-align: center;
+}
+h4 {
+    font-family: "Aguafina Script", cursive;;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 14pt;
+}
+
+div#interface{
+    width: 900px;
+    background-color: #ffffff;
+    margin: 0px auto 10px auto;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px ;
+}
+
+header#heading{
+
+    height: 150px;
+    background-color: #ffffff ;
+
+}
+hgroup h1{
+
+    display: inline;
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+    background-color: rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    padding: 0px 10px 10px 10px;
+    box-shadow: 0px 0px 5px black;
+
+}
+hgroup h2{
+    display: inline;
+    font-family:"Caveat", cursive;;
+    padding: 0px 20px 10px 10px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Menu Setting */
+
+nav#menu{
+    position: relative;
+    margin:40px 0px -10px 0px;
+    padding: 10px -10px -10px 10px;
+}
+
+nav#menu ul{
+    list-style: none;
+    top: 0px;
+    border-bottom: 1px rgba(0,0,0,0.3) solid;
+    border-top: 1px rgba(0,0,0,0.3) solid;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu li{
+    display: inline-block;
+    margin: 0px;
+    color: gray;
+    padding: 10px 20px 10px 5px;
+
+}
+nav#menu li:hover {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+
+}
+
+/* image settings from the home page*/
+
+figure#mainPhoto{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 80px 0 0 80px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+
+}
+figure#mainPhoto{
+    background: url("https://i.pinimg.com/564x/66/2c/85/662c85daad44a216a962ba1a53122967.jpg") no-repeat;
+    background-position: 45% 90%;
+    background-size: 550px 535px;
+    -webkit-transition: all 0.5s ease-out;
+}
+figure#mainPhoto:hover{
+    background-position: 0% 0%;
+    background-size: 300px 300px;
+    -webkit-transform: scale(1.5);
+}
+
+figure#mainPhoto figcaption{
+   position: relative;
+    background-color: rgba(0,0,0,0.6);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: 0.5s linear;
+    font-size: 12pt;
+    line-height: 2;
+    text-shadow: 1px 1px 3px black;
+}
+figure#mainPhoto figcaption:hover{
+    opacity: 1;
+}
+
+/* screen */
+section#esquerda{
+position: relative;
+    display: block;
+    width: 450px;
+    float: left;
+
+    padding: 10px;
+}
+aside#direita{
+
+    display:block ;
+    width: 400px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 50px;
+
+    border-left: 1px solid rgba(0,0,0,0.3);
+
+}
+aside#direita h2{
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: -10px;
+    margin-top: 0;
+}
+aside#direita p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+/* Footer Settings */
+
+footer{
+    clear: both;
+    border-top: 4px solid rgba(0,0,0,0.5);
+    margin: 0px -10px -10px -10px;
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    font-size: 16pt;
+}
+footer h3{
+    background-color: rgba(0,0,0,0.3);
+  margin: 0px -50px 0px -50px;
+    padding: 50px;
+    color: white;
+    font-size: 16pt;
+
+}
+footer h4{
+    background-color: rgb(53,30,121);
+    margin: 0px -50px 0px -50px;
+    padding: 50px 0px 50px 0px;
+    color: white;
+    font-size: 16pt;
+    box-sizing: border-box;
+}
+footer h2{
+    background-color: rgba(35,35,188,0.5);
+    margin: 0px -50px 0px -50px;
+
+    padding: 50px;
+    color: white;
+    font-size: 16pt;
+
+}
+iframe{
+    position: relative;
+    left: 170px;
+    border: 1px solid #606060;
+    box-shadow: 1px 1px 20px #606060;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}}
