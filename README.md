@@ -1,6 +1,6 @@
 # Charity 
 
-This was the project that i used:
+This project I explored Front-End settings and capability to order products online:
 HTML
 CSS
 JS
